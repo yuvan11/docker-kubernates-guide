@@ -149,6 +149,22 @@
 - Get pod with IP
 
         kubectl get pod -o wide
+ 
+--- 
+
+# Kubernates Explanation
+
+![k-1](https://user-images.githubusercontent.com/49576526/127452376-f3151142-b21a-4601-966a-a3cb698fba11.jpg)
+
+![k-2](https://user-images.githubusercontent.com/49576526/127452391-dc38c45b-0d98-419f-bc9b-718033e14683.jpg)
+
+![k-3](https://user-images.githubusercontent.com/49576526/127452401-2c443b2d-99c1-4be4-a15c-295d07a41b40.jpg)
+
+![k-4](https://user-images.githubusercontent.com/49576526/127452413-3d88f3d6-5059-4587-8b78-4a5ea8b2f06a.jpg)
+
+![k-5](https://user-images.githubusercontent.com/49576526/127452422-d1f2e95f-71c2-40a1-ad44-e05496fe9d0f.jpg)
+
+
         
 
 
