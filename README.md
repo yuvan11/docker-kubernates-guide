@@ -103,12 +103,52 @@
 
 ![3](https://user-images.githubusercontent.com/49576526/127447611-14a62cbe-ca97-4e7e-9303-6ce69f2e116f.jpg)
 
+---
 
+# Kubernates Useful commands
 
+ To run kubernates, we need minikube and kubectl
 
+- Running minikube
 
+        minikube start hypervisor --hypervisor
+        minikube start docker --docker
 
+- Getting all nodes
+    
+        kubectl get nodes
+- Getting all pds
+    
+        kubectl get pod
+- Getting all serivices
+    
+        kubectl get services
+- Getting all deployments
+    
+        kubectl get deployments
+- Creating component(a deployment(abstraction ober pods) of pod)
+      
+        kubectl create -f file.(yaml)
+                (or)
+        kubectl apply -f file.(yaml)
+- Getting log of pod
 
+        kubectl logs podname
+- Describing pods
+        
+        kubectl describe pod pod_name
+- Executing interactive pod with bash
+        
+        kubectl exec -it pod_name -- bin/bash
+- Deleting config file
+
+        kubectl delete -f filename
+- Get all pods
+
+        kubectl get all
+- Get pod with IP
+
+        kubectl get pod -o wide
         
 
 
