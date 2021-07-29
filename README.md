@@ -94,6 +94,18 @@
 - Removing one or more images of docker
 
         docker rmi [option] image:tag
+---
+# Docker Explanation
+
+![1](https://user-images.githubusercontent.com/49576526/127447464-6d92caad-6be7-4603-b130-bef159954187.jpg)
+
+![2](https://user-images.githubusercontent.com/49576526/127447546-48a3b2fc-0b94-4e4b-a956-bdba606082a7.jpg)
+
+![3](https://user-images.githubusercontent.com/49576526/127447611-14a62cbe-ca97-4e7e-9303-6ce69f2e116f.jpg)
+
+
+
+
 
 
 
