@@ -1,5 +1,15 @@
 # Docker Useful commands
+- Create Dockerfile
 
+        touch Dockerfile
+- Build dockerfile
+
+        docker build [name] [path]
+        docker build sample .
+        
+        or build using  dockerhub_id
+
+        docker build --tag [dockerhubid]/[name]:version [path]
 - List all the running docker container
         
         docker ps  
@@ -12,6 +22,9 @@
 - List all the containers
 
         docker container ls
+- Run docker container in a detached mode 
+
+        docker run [image]:[version]
 - Run docker container in a detached mode 
 
         docker run -d [image]:version/tag   
@@ -94,6 +107,9 @@
 - Removing one or more images of docker
 
         docker rmi [option] image:tag
+- Removing docker volumes(try if there is a less space in working env)
+
+        docker system prune --all --force --volumes
 ---
 # Docker Explanation
 
